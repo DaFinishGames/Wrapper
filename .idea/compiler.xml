@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default">
+        <processorPath>
+          <entry name="$PROJECT_DIR$/src/main/java/it/dependency/injector/annotations/InjectedAnnotationProcessor.java" />
+        </processorPath>
+      </profile>
+      <profile name="Ann" enabled="true">
+        <processorPath useClasspath="false" useProcessorModulePath="true">
+          <entry name="$PROJECT_DIR$/../AnnotationProcessor" />
+        </processorPath>
+        <module name="Wrapper" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
